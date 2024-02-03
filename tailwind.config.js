@@ -16,6 +16,11 @@ export default {
         yellow: "#eac3359f",
         coolPurple: "#646cffaa",
         background: "#fffafa"
+      },
+      fontFamily: {
+        header: ["Karsten"],
+        subheader: ["Palatino"],
+        body: ["Montserrat"],
       }
     },
   },
