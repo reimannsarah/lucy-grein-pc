@@ -38,6 +38,18 @@ export const slideInFromTop = {
   },
 };
 
+export const slideInFromBottom = (delay: number) => ({
+  hidden: { y: 300, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      delay,
+      duration: 0.5,
+    },
+  },
+});
+
 export function fadeIn(delay: number) {
   return {
     hidden: { opacity: 0 },
