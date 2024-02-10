@@ -12,19 +12,18 @@ export function slideInFromLeft(delay: number) {
   };
 }
 
-export function slideInFromRight(delay: number) {
-  return {
-    hidden: { x: 100, opacity: 0 },
-    visible: {
-      x: 0,
-      opacity: 1,
-      transition: {
-        delay: delay,
-        duration: 0.5,
-      },
+export const slideInFromRight = (delay = 0) => ({
+  hidden: { opacity: 0, x: 100 }, // Use transform and opacity changes
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      delay,
+      duration: 0.5,
+      ease: "easeInOut",
     },
-  };
-}
+  },
+});
 
 export const slideInFromTop = {
   hidden: { y: -100, opacity: 0 },
