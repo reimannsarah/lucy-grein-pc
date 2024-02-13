@@ -1,11 +1,13 @@
 // import Hero from "../sub/Hero";
 // import InfoBoxes from "../sub/InfoBoxes";
-import SVG from "../sub/svg";
+// import Background from "../sub/Background";
+import Logo from "../sub/Logo";
 
 const Home = () => {
   return (
     <div>
-      <SVG />
+      <Logo />
+      {/* <Background /> */}
     </div>
   );
 };
