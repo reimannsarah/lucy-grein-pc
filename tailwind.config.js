@@ -7,13 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        orange: "#fbe5d4",
-        green: "#eaefd7",
+        darkgreen: "#1B3A06",
+        lightgreen: "#769C1D",
+        yellow: "#F1BD2E",
+        orange: "#F26B3A",
+        pink: "#F7B8A8",
+        lightblue: "#90BCD5",
+        darkblue: "#215b7d",
         purple: "#e7e6fc",
-        pink: "#f9e8fb",
-        lightBlue: "#d3eaff",
-        darkBlue: "#bed4f8",
-        yellow: "#eac3359f",
         coolPurple: "#646cffaa",
         background: "#fffafa"
       },
@@ -21,6 +22,7 @@ export default {
         header: ["Karsten"],
         subheader: ["Palatino"],
         body: ["Montserrat"],
+        bigheader: ["Retro"]
       }
     },
   },
