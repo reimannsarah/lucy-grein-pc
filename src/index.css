@@ -17,6 +17,11 @@
   src: url('../src/assets/fonts/Montserrat.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: "Retro";
+  src: url('../src/assets/fonts/Retro.ttf') format('truetype');
+}
+
 #root {
   max-width: 1730px;
   /* margin: 0 auto; */
@@ -25,6 +30,5 @@
 }
 
 body {
-  background-color: #fffafa;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23e0dddd' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  background-image: url("../src/assets/imgs/background-min.svg");
 }
