@@ -32,3 +32,7 @@
 body {
   background-image: url("../src/assets/imgs/background-min.svg");
 }
+
+#fallCreek {
+  shape-outside: radial-gradient(circle at 50% 50%, transparent 0, transparent 50%, #000 50%);
+}
