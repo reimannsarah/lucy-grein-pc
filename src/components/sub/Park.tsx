@@ -248,9 +248,9 @@ const Background = () => {
             fill="#f4eaf2"
           />
           <motion.g
-          variants={slideInFromLeft(0.7)}
-          initial="hidden"
-          animate="visible"
+            variants={slideInFromLeft(0.7)}
+            initial="hidden"
+            animate="visible"
           >
             <path
               d="M-1735.5 853.886c-2.17-5.708-8.56-8.57-14.27-6.394-5.71 2.177-8.57 8.569-6.4 14.277 2.18 5.708 8.57 8.571 14.28 6.394 5.71-2.177 8.57-8.569 6.39-14.277z"
@@ -747,11 +747,8 @@ const Background = () => {
             d="M251.435 679.665c-1.866-4.666-5.675-8.496-10.571-8.834-5.154-.399-9.262-.847-11.637-6.56 2.206.777 4.019-2.567 7.312-1.841-1.51-1.465-3.551-1.291-7.539-.825-4.898.627-11.16-1.944-13.122-9.708 5.575 4.854 12.488-.183 23.066 8.23 5.578 4.392 8.747 9.577 10.553 13.535 1.608 3.597 2.088 6.284 2.211 6.735a9.015 9.015 0 0 0-.273-.732z"
             fill="#2b550f"
           />
-          <motion.g
-          variants={fadeIn(1.1)}
-          initial="hidden"
-          animate="visible"
-          >
+          {/* tree */}
+          <motion.g variants={fadeIn(1.1)} initial="hidden" animate="visible">
             <defs>
               <filter
                 id="g"
@@ -873,6 +870,7 @@ const Background = () => {
               fill="#2b550f"
             />
           </g>
+          {/* right bushes */}
           <motion.g
             variants={slideInFromRight(0.5)}
             initial="hidden"
@@ -1294,6 +1292,7 @@ const Background = () => {
               fill="#2b550f"
             />
           </g>
+          {/* right clouds */}
           <g>
             <defs>
               <filter
