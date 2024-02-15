@@ -1,19 +1,21 @@
 export const pageStrings = { 
   hero: {
     title: "Hi, I'm Lucy",
+    subtitle: "I'm here to make parenting feel accessible, funcitonal, and intuitive"
+
   },
   boxes: {
     box1: {
       top: "Working with families is my passion",
-      bottom: "Bio"
+      bottom: "Learn more about Lucy"
     },
     box2: {
       top: "I believe parents deserve support and collaboration",
-      bottom: "Programs"
+      bottom: "Check out my programs"
     },
     box3: {
       top: "Intuition is a comlex system of values, perception, and memory",
-      bottom: "Intuition Theory"
+      bottom: "Read about\n Intuition Theory"
     }
   },
   about: {
