@@ -61,3 +61,16 @@ export function fadeIn(delay: number) {
     },
   };
 }
+
+export function spin(duration: number) {
+  return {
+    animate: {
+      rotate: [0, 90, 180, 270, 360],
+      transition: {
+        duration: duration,
+        ease: "linear",
+        yoyo: Infinity,
+      },
+    },
+  };
+}
