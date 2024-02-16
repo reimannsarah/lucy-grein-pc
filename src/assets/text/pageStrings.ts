@@ -28,5 +28,27 @@ export const pageStrings = {
     journeyP3: "My career has informed a holistic, trauma-informed, and strengths based approach to working with the foundational units of our communities: families. I have developed an expertise for working with children and specialize in neurodiversity, behavior management, and curriculum development. However, I was called to work with parents when I repeatedly saw the stress and anxiety parents face, especially when trying to navigate their children's disruptive behaviors. I believe that parents deserve support through reflective processing, collaborative tool building, and effective assessment that encourage the development of their own intuitive practices for raising their children.",
     journeyP4: "The experiences described above have led me to where I am today, working as a parent consultant and developing Intuition Theory. These two projects are deeply aligned. The services I offer are grounded in my knowledge of children and families as well as the philosophical explorations of IT. The theory is situated in the intersections of  behavioral science, psychology, and philosophy. IT describes the phenomenological truths that inform our intuitive responses. I am approaching this development of this model from an experiential standpoint -- I actively use IT to assess the behaviors I observe in children and assist families with defining their personal parenting practices. My goal is to teach parents how to use IT and discover intuitive parenting as an application of the theory.",
     journeyP5: "I hope you'll join me as the journey continues!" 
+  },
+  values: {
+    title: "Values and Philosophies",
+    p1: "My core values have been shaped by life experience. I prioritize these things in all ways by which I move through the world. My philosophies of engagement are informed by my various forms of training and education. They are how I work with children and connect with families effectively. My website has written descriptions of each value and philosophy.",
+    core_values: {
+      "Community": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+      "Connection": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+      "Creativity": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+      "Resilience": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+      "Comfort": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+      "Responsibility": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+      "Communication": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+      "Self-Reflection": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+      "Accesibility": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+    }
+  },
+  philisophies: {
+    "Boundaries create freedom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+    "Happy, healthy, and sage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+    "Trial and error": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+    "All experiences are internalized" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+    "Centering the self allows for effective assessment" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
   }
 }
