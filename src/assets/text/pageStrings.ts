@@ -32,6 +32,8 @@ export const pageStrings = {
   values: {
     title: "Values and Philosophies",
     p1: "My core values have been shaped by life experience. I prioritize these things in all ways by which I move through the world. My philosophies of engagement are informed by my various forms of training and education. They are how I work with children and connect with families effectively. My website has written descriptions of each value and philosophy.",
+    values_title: "Core Values",
+    philisophies_title: "Philisophies of Engagement",
     core_values: {
       "Community": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
       "Connection": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
@@ -46,9 +48,10 @@ export const pageStrings = {
   },
   philisophies: {
     "Boundaries create freedom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
-    "Happy, healthy, and sage": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
+    "Happy, healthy, and safe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
     "Trial and error": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
     "All experiences are internalized" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
     "Centering the self allows for effective assessment" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco",
-  }
+  },
+  copyright: `\u00A9 Sarah Reimann 2024`,
 }
