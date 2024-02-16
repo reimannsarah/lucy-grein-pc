@@ -16,7 +16,8 @@ export default {
         darkblue: "#215b7d",
         purple: "#e7e6fc",
         coolPurple: "#646cffaa",
-        background: "#fffafa"
+        background: "#fffafa",
+        gray: "#474747"
       },
       fontFamily: {
         header: ["Karsten"],
