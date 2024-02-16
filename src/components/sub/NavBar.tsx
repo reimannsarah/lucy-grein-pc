@@ -7,7 +7,7 @@ const NavBar = () => {
   const isHomeRoute = location.pathname === "/";
   const [aboutDropdown, setAboutDropDown] = useState(false);
   const [servicesDropdown, setServicesDropDown] = useState(false);
-  const [projectsDropdown, setProjectsDropDown] = useState(false);
+  // const [projectsDropdown, setProjectsDropDown] = useState(false);
   const [contactDropdown, setContactDropDown] = useState(false);
 
   return (
@@ -304,7 +304,7 @@ const NavBar = () => {
             </div>
           </div>
 
-          <div
+          {/* <div
             className="w-[200px] z-20"
             onMouseEnter={() => setProjectsDropDown(true)}
             onMouseLeave={() => setProjectsDropDown(false)}
@@ -323,7 +323,7 @@ const NavBar = () => {
                 name2="Intuition Theory"
               />
             </div>
-          </div>
+          </div> */}
 
           <div
             className="w-[200px] z-20"
