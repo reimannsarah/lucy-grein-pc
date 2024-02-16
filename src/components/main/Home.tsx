@@ -15,9 +15,6 @@ const Home = () => {
         <div className="relative bg-purple py-10 px-14 col-start-4 col-end-8 row-start-1 row-end-2 my-4 z-50 shadow-lg rounded-lg text-4xl">
           {pageStrings.hero.title}
         </div>
-        {/* <div className="bg-lightblue py-10 px-14 col-start-3 col-end-9 row-start-2 row-end-3 my-4 shadow-lg rounded-lg">
-          <div className="flex flex-row"></div>
-        </div> */}
         <div className="bg-purple col-start-5 col-end-9 m-10 flex justify-center items-center rounded-lg border-4 hover:border-coolPurple">
           <NavLink to="">
             <p className="hover:text-coolPurple text-xl">Follow me on Instagram</p>
