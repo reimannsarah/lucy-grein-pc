@@ -4,6 +4,7 @@ import Layout from "./components/main/Layout";
 import About from "./components/main/About";
 import Landing from "./components/main/Landing";
 import Values from "./components/main/Values";
+import Programs from "./components/main/Programs";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="home" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="values" element={<Values />} />
+          <Route path="programs" element={<Programs />} />
         </Route>
       </Routes>
     </Router>
