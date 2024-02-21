@@ -7,7 +7,6 @@ const NavBar = () => {
   const isHomeRoute = location.pathname === "/";
   const [aboutDropdown, setAboutDropDown] = useState(false);
   const [servicesDropdown, setServicesDropDown] = useState(false);
-  // const [projectsDropdown, setProjectsDropDown] = useState(false);
   const [contactDropdown, setContactDropDown] = useState(false);
 
   return (
@@ -296,10 +295,10 @@ const NavBar = () => {
                 isVisible={servicesDropdown}
                 route1="/programs"
                 name1="Programs"
-                route2="/testimony"
-                name2="Testimony"
-                route3="/faq"
-                name3="FAQ"
+                // route2="/testimony"
+                // name2="Testimony"
+                // route3="/faq"
+                // name3="FAQ"
               />
             </div>
           </div>
