@@ -25,17 +25,17 @@ export const slideInFromRight = (delay = 0) => ({
   },
 });
 
-export const slideInFromTop = {
+export const slideInFromTop = (delay: number) => ({
   hidden: { y: -100, opacity: 0 },
   visible: {
     y: 0,
     opacity: 1,
     transition: {
-      delay: 0.5,
+      delay,
       duration: 0.5,
     },
   },
-};
+});
 
 export const slideInFromBottom = (delay: number) => ({
   hidden: { y: 300, opacity: 0 },
