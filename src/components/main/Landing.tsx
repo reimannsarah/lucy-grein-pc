@@ -2,20 +2,23 @@ import Logo from "../sub/Logo";
 import Park from "../sub/Park";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-import { slideInFromBottom } from "../../../utils/motion";
+import { slideInFromTop } from "../../../utils/motion";
 
 const Landing = () => {
   return (
     <div>
       <Park />
       <Logo />
-      <div className="absolute top-8 right-80">
+      <div className="absolute top-14 right-44">
         <motion.div
-        variants={slideInFromBottom(1)}
+        variants={slideInFromTop(2.5)}
         initial="hidden"
         animate="visible"
         >
           <NavLink to="/home">
+            <p className="text-5xl font-body tracking-10 text-gray">Enter site &#8594;</p>
+          </NavLink>
+          {/* <NavLink to="/home">
             <motion.svg
               animate={{
                 scale: [0.8, 1, 0.8],
@@ -24,7 +27,7 @@ const Landing = () => {
                 duration: 2,
                 ease: "easeInOut",
                 times: [0, 0.5, 1],
-                repeat: Infinity,
+                // repeat: Infinity,
                 delay: 1.4,
               }}
               version="1.1"
@@ -140,7 +143,7 @@ const Landing = () => {
                 />{" "}
               </g>{" "}
             </motion.svg>
-          </NavLink>
+          </NavLink> */}
         </motion.div>
       </div>
     </div>
