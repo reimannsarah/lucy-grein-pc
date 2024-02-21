@@ -1,9 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { pageStrings } from "../../assets/text/pageStrings";
 
-// import blue from "../../assets/imgs/blue-flower.svg";
-// import orange from "../../assets/imgs/orange-flower.svg";
-// import pink from "../../assets/imgs/pink-flower.svg";
 const InfoBoxes = () => {
   return (
     <div className="flex justify-center mt-8">
@@ -43,7 +40,7 @@ const InfoBoxes = () => {
           className="flex justify-center items-center rounded-lg col-span-3 row-span-3 bg-darkblue font-header text-white hover:z-50"
           style={{ gridArea: "2 / 7 / 5 / 10" }}
         >
-          <NavLink to="/services">
+          <NavLink to="/programs">
             <p className="hover:text-lightblue text-4xl">{pageStrings.boxes.box2.bottom}</p>
           </NavLink>
         </div>
