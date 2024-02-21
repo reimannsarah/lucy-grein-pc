@@ -118,6 +118,6 @@ export const pageStrings = {
         point3: "Brain storm",
       },
     },
-    copyright: `\u00A9 Sarah Reimann 2024`,
   },
+  copyright: `\u00A9 Sarah Reimann 2024`,
 };
