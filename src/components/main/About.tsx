@@ -1,10 +1,17 @@
 // import React from 'react'
 import { pageStrings } from "../../assets/text/pageStrings";
 import { imageUrls } from "../../assets/imgs/imageUrls";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../../utils/motion";
 
 const About = () => {
   return (
-    <div className="bg-background my-56 mx-44 p-20 rounded-lg shadow-lg font-body text-gray text-left">
+    <motion.div 
+    variants={fadeIn(1)}
+    initial="hidden"
+    animate="visible"
+    className="bg-background my-56 mx-44 p-20 rounded-lg shadow-lg font-body text-gray text-left"
+    >
       <div>
         <div className="flex flex-row mb-14 justify-between">
           <div className="w-1/2">
@@ -784,7 +791,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
