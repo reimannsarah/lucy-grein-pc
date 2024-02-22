@@ -1,10 +1,17 @@
 import { pageStrings } from "../../assets/text/pageStrings";
 import { imageUrls } from "../../assets/imgs/imageUrls";
 import PlanCard from "../sub/PlanCard";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../../utils/motion";
 
 const Programs = () => {
   return (
-    <div className="bg-background my-56 mx-44 p-20 rounded-lg font-body">
+    <motion.div 
+    variants={fadeIn(1)}
+    initial="hidden"
+    animate="visible"
+    className="bg-background my-56 mx-44 p-20 rounded-lg font-body"
+    >
       <div className="flex flex-row items-center justify-between">
         <img
           src={imageUrls.la}
@@ -790,7 +797,7 @@ const Programs = () => {
 
         {/* <div className="block w-4/5 h-[2px] bg-pink my-10 mx-auto"></div> */}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
