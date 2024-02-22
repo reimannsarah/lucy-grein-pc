@@ -1,10 +1,17 @@
 import { imageUrls } from "../../assets/imgs/imageUrls";
 import { pageStrings } from "../../assets/text/pageStrings";
 import Accordion from "../sub/Accordion";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../../utils/motion"
 
 const Values = () => {
   return (
-    <div className="bg-background my-56 mx-44 p-20 rounded-lg shadow-lg font-body">
+    <motion.div 
+    variants={fadeIn(1)}
+    initial="hidden"
+    animate="visible"
+    className="bg-background my-56 mx-44 p-20 rounded-lg shadow-lg font-body"
+    >
       <div className="flex flex-row items-center justify-evenly">
         <div>
           <h1 className="text-orange text-4xl text-left mb-10">{pageStrings.values.title}</h1>
@@ -42,7 +49,7 @@ const Values = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
