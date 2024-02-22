@@ -14,7 +14,7 @@ export const pageStrings = {
       bottom: "Check out my programs",
     },
     box3: {
-      top: "Intuition is a comlex system of values, perception, and memory",
+      top: "Intuition is a complex system of values, perception, and memory",
       bottom: "Read about\n Intuition Theory",
     },
   },
