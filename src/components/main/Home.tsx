@@ -2,10 +2,16 @@ import { imageUrls } from "../../assets/imgs/imageUrls";
 import InfoBoxes from "../sub/InfoBoxes";
 import { pageStrings } from "../../assets/text/pageStrings";
 import { NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className="bg-background my-56 mx-44 p-20 rounded-lg shadow-lg font-body text-2xl">
+    <motion.div 
+    className="bg-background my-48 mx-44 p-20 rounded-lg shadow-lg font-body text-2xl"
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ duration: 2 }}
+    >
       <div className="grid grid-cols-8 grid-rows-3 gap-4">
         <img
           src={imageUrls.hero}
@@ -29,7 +35,7 @@ const Home = () => {
           </div>
         </NavLink>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
