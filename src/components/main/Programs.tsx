@@ -7,7 +7,7 @@ import { fadeIn } from "../../../utils/motion";
 const Programs = () => {
   return (
     <motion.div 
-    variants={fadeIn(1)}
+    variants={fadeIn(0.5)}
     initial="hidden"
     animate="visible"
     className="bg-background my-56 mx-44 p-20 rounded-lg font-body"
