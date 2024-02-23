@@ -24,7 +24,10 @@ export default {
         subheader: ["Palatino"],
         body: ["Montserrat"],
         bigheader: ["Retro"]
-      }
+      },
+      lineHeight: {
+        '12': '7rem',
+      },
     },
   },
   plugins: [],
