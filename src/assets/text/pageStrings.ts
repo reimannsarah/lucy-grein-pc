@@ -119,5 +119,10 @@ export const pageStrings = {
       },
     },
   },
+  contact: {
+    header: "Contact",
+    subheader1: "I'd love to hear from you!",
+    subheader2: "Please reach out with any questions or to schedule a free consultation.",
+  },
   copyright: `\u00A9 Sarah Reimann 2024`,
 };
