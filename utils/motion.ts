@@ -74,3 +74,16 @@ export function spin(duration: number) {
     },
   };
 }
+
+export function bounce(duration: number) {
+  return {
+    animate: {
+      y: ["0%", "50%", "0%"],
+      transition: {
+        duration: duration,
+        ease: "easeInOut",
+        yoyo: Infinity,
+      },
+    },
+  };
+}

@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import DropDown from "./DropDown";
+import { motion } from "framer-motion";
+import { slideInFromLeft, slideInFromTop } from "../../../utils/motion";
 
 const NavBar = () => {
   const location = useLocation();
@@ -12,7 +14,12 @@ const NavBar = () => {
   return (
     <div>
       {!isHomeRoute && (
-        <div className="absolute left-10 top-10">
+        <motion.div 
+        variants={slideInFromLeft(0.7)}
+        initial="hidden"
+        animate="visible"
+        className="absolute left-10 top-10"
+        >
           <NavLink to="/home">
             <svg
               version="1.1"
@@ -255,9 +262,14 @@ const NavBar = () => {
               </g>{" "}
             </svg>
           </NavLink>
-        </div>
+        </motion.div>
       )}
-      <div className="absolute right-12 top-24 flex flex-row justify-between font-body text-2xl text-darkgreen">
+      <motion.div 
+      variants={slideInFromTop(0.5)}
+      initial="hidden"
+      animate="visible"
+      className="absolute right-12 top-24 flex flex-row justify-between font-body text-2xl text-darkgreen"
+      >
         <div className="flex flex-row gap-3">
           <div
             className="w-[200px] z-20"
@@ -343,7 +355,7 @@ const NavBar = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

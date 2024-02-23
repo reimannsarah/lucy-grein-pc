@@ -14,7 +14,7 @@ export const pageStrings = {
       bottom: "Check out my programs",
     },
     box3: {
-      top: "Intuition is a comlex system of values, perception, and memory",
+      top: "Intuition is a complex system of values, perception, and memory",
       bottom: "Read about\n Intuition Theory",
     },
   },
@@ -118,6 +118,11 @@ export const pageStrings = {
         point3: "Brain storm",
       },
     },
+  },
+  contact: {
+    header: "Contact",
+    subheader1: "I'd love to hear from you!",
+    subheader2: "Please reach out with any questions or to schedule a free consultation.",
   },
   copyright: `\u00A9 Sarah Reimann 2024`,
 };

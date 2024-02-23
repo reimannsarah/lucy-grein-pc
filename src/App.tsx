@@ -6,6 +6,7 @@ import About from "./components/main/About";
 import Landing from "./components/main/Landing";
 import Values from "./components/main/Values";
 import Programs from "./components/main/Programs";
+import Contact from "./components/main/Contact";
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="values" element={<Values />} />
           <Route path="programs" element={<Programs />} />
+          <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
     </Router>
